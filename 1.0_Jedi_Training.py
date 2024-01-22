@@ -54,6 +54,7 @@ tina.left(90)
 tina.forward(60)
 tina.end_fill()
 tina.pendown()
+tina.hideturtle()
 
 tommy = turtle.Turtle()
 tommy.shape('turtle')
@@ -84,4 +85,7 @@ tommy.goto(-60, 180)
 tommy.pendown()
 
 tommy.write('Jonathan Reischel', font=("Arial", 16, "normal"))   # sign your name to your art
+tommy.penup()
+tommy.goto(-200, 200)
+tommy.hideturtle()
 turtle.exitonclick()   # Keeps pycharm window open so we can see the drawing
